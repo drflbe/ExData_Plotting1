@@ -24,7 +24,7 @@ par(mfcol = c(2,2))
 
 # Plot 2
 
-with(power, plot(datetime, Global_active_power, type = "l", xlab = " ", ylab = "Global Active Power (kilowatts)"))
+with(power, plot(datetime, Global_active_power, type = "l", xlab = " ", ylab = "Global Active Power"))
 
 # Plot 3
 
@@ -47,3 +47,4 @@ with(power, plot(datetime, Voltage, type = "l", xlab = "datetime", ylab = "Volta
 with(power, plot(datetime, Global_reactive_power, type = "l", xlab = "datetime", ylab = "Global_reactive_power"))
 
 dev.off()
+
